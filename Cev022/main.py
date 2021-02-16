@@ -1,0 +1,6 @@
+N=str(input('Digite o nome'))
+print(N.upper())
+print(N.lower())
+print(len(N)-N.count(' '))
+ld = N.split()
+print(ld[0])
